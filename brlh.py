@@ -23,5 +23,9 @@ print(f'Perimetro:{p}')
 def verifica_resultado(altura, largura, raio):
     print(f'retangulo Area:{retangulo("Area",largura,altura)}')
     print(f'retangulo Perimetro: {retangulo("perimetro",largura,altura)}')
+    print(f'circulo Area:{circulo("Area", raio)}')
+    print(f'circulo Perimetro:{circulo("Perimetro", raio)}')
 
-verifica_resultado(15,6,7,8)
+verifica_resultado(15,67,8)
+
+print (f'verifica_resultado:')
